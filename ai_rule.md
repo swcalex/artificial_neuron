@@ -1,6 +1,6 @@
 # AI Collaboration Guidelines (26-10-07)
 
-본 문서는 Architect(User)와 Engine(AI)가 Develop 과정에서 전체적인 프로세스와 각 프로세스에서 각각의 역할 및 진행해야 할 작업들에 대한 규칙을 정의하는 문서이다. 따라서 본 문서 'ai_rule.md'의 내용은 프로젝트를 진행할 때 가장 기본이 되는 규칙이다.
+본 문서는 Architect(User)와 Engine(AI)가 Develop 과정에서 전체적인 프로세스와 각 프로세스에서 각각의 역할 및 진행해야 할 작업들에 대한 규칙을 정의하는 문서이다. 따라서 본 문서 'ai_rule.md'의 내용은 프로젝트를 진행할 때 가장 기본이 되는 규칙이다. 이 문서의 수정은 개발 과정에서 일어나지 않으며, 별도의 작업으로 진행된다.
 
 ## step 1. 초기 버전 또는 다음 버전에서의 develop 방향성 공유 및 통합된 방향성 도출
 
@@ -21,7 +21,7 @@ Architect와 Engine이 생각한 각각의 방향성을 서로 공유한다. 그
 
 ## step 4. 코드 구현 및 테스트, 'report.md' 생성 또는 업데이트
 
-Engine은 'programming_plan.md' 문서의 내용을 따라 구현에 들어간다. 코드 수정 및 테스트 활동이 가능하다. 모든 구현 및 테스트가 마치면 해당 단계의 과정을 종합적으로 정리한 'report.md' 문서를 생성 또는 업데이트한다. 이 문서는 해당 버전의 산출물로 repository에 남긴다. 이때, 문서의 내용은 코드 자체의 설명보다는 'algorithm_spec.md' 문서에 있는 알고리즘 및 의도가 잘 반영되었는지를 위주로 구성한다. Engine이 report 작성을 마치면 Architect는 'algorithm_spec.md'와의 일치 여부 및 테스트 결과를 검토한다. Architect가 검토를 완료하고 승인한 경우에만 Step 5로 넘어간다.
+Engine은 'programming_plan.md' 문서의 내용을 따라 구현에 들어간다. 코드 수정 및 테스트 활동이 가능하다. 모든 구현 및 테스트가 마치면 해당 단계의 과정을 종합적으로 정리한 'report.md' 문서를 생성 또는 업데이트한다. 이 문서는 해당 버전의 산출물로 repository에 남긴다. 이때, 문서의 내용은 코드 자체의 설명보다는 'algorithm_spec.md' 문서에 있는 알고리즘 및 의도가 잘 반영되었는지를 위주로 구성한다. Engine이 report 작성을 마치면 Architect는 'algorithm_spec.md'와의 일치 여부 및 테스트 결과를 검토한다. Architect가 검토를 완료하고 승인한 경우에만 다음 단계로 넘어간다.
 
 ## step 5. 'README.md', 'CHANGELOG.md' 생성 또는 업데이트
 
